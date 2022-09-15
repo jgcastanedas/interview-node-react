@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const logger = require('./middlewares/loggerMiddleware.js')
+const logger = require('./middlewares/loggerMiddleware')
 // Habilitar el response.body
 app.use(express.json())
 app.use(logger)
